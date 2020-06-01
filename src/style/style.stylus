@@ -18,8 +18,17 @@ body
   width 75%
   margin 1rem 0 1rem 0
 
-#editItem
-  display none
+#edit
+  width: 7%
+  position fixed
+  right 1.5%
+  top 20%
+  &::before
+    content ''
+    display block
+    width 7.5%
+    height 7.5%
+    background #333
 
 #sidebar-right
   width 10%

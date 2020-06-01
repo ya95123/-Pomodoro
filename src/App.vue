@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <!-- 跳出側邊攔按鈕 -->
-      <b-img src="../public/img/user/pencil.png" alt="編輯" v-b-toggle.sidebar-right></b-img>
+      <b-img id="edit" src="../public/img/user/pencil.png" alt="編輯" v-b-toggle.sidebar-right></b-img>
       <!-- 側邊攔 -->
       <b-sidebar id="sidebar-right" bg-variant="warning" right no-header shadow>
         <!-- 關視窗模板 -->
