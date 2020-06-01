@@ -1,17 +1,41 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">番茄鐘</router-link> |
-      <router-link to="/list">清單</router-link> |
-      <router-link to="/settings">音效</router-link>
+      <!-- 跳出側邊攔按鈕 -->
+      <b-img src="../public/img/user/pencil.png" alt="編輯" v-b-toggle.sidebar-right></b-img>
+      <!-- 側邊攔 -->
+      <b-sidebar id="sidebar-right" bg-variant="warning" right no-header shadow>
+        <!-- 關視窗模板 -->
+        <template v-slot:default="{ hide }">
+          <!-- 關視窗紐 -->
+          <div id="xIcon" class="text-white text-center mt-2" @click="hide">×</div>
+          <div id="sidebar-container" class="px-3 py-2">
+          <!-- 首頁 -->
+            <router-link to="/" class="mt-2"><b-img src="../public/img/user/browser.png" alt="首頁" fluid></b-img></router-link>
+          <!-- 清單 -->
+            <router-link to="/list" class="mt-5"><b-img src="../public/img/user/checklist.png" alt="清單" fluid></b-img></router-link>
+          <!-- 鈴聲 -->
+            <router-link to="/settings" class="mt-5"><b-img src="../public/img/user/bell.png" alt="音效" fluid></b-img></router-link>
+          </div>
+        </template>
+      </b-sidebar>
     </div>
+
+    <!-- storage、router -->
     <keep-alive>
       <router-view/>
     </keep-alive>
   </div>
 </template>
 
-<style lang="stylus">
-// *
-//   font-family '微軟正黑體'
-</style>
+<script>
+export default {
+
+}
+</script>
+
+      <!-- <div id="editItem">
+        <router-link to="/"><img src="../public/img/user/browser.png" alt="番茄鐘"></router-link> |
+        <router-link to="/list"><img src="../public/img/user/checklist.png" alt="清單"></router-link> |
+        <router-link to="/settings"><img src="../public/img/user/bell.png" alt="音效"></router-link>
+      </div> -->
