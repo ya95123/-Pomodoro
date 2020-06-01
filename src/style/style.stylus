@@ -1,4 +1,7 @@
 // @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+// body
+//   font-family var(--font-family-sans-serif)  ,"Noto Sans TC"
 
-body
-  font-family var(--font-family-sans-serif)  ,"Noto Sans TC"
+*
+  font-family '微軟正黑體'
+ 

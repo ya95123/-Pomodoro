@@ -12,6 +12,6 @@
 </template>
 
 <style lang="stylus">
-*
-  // font-family '微軟正黑體'
+// *
+//   font-family '微軟正黑體'
 </style>
