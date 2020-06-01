@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alarms/yay.mp3"
   },
   {
-    "revision": "43ea3254630f15d1aa6b",
-    "url": "css/app.98779a51.css"
+    "revision": "0f756d3fee4f4107106d",
+    "url": "css/app.1d7c95ea.css"
   },
   {
     "revision": "f5cbd49d5a8da8a9a117",
@@ -412,12 +412,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "fonts/-nF7OG829Oofr2wohFbTp9iFOkMQAewlpbGXhhyYs0QF3kPVyLylzU95vTq1Ltj5xQez1g.99.06608a54.woff2"
   },
   {
-    "revision": "3b880e4bf5a2d55124d642dc564e791c",
+    "revision": "c284bec7f98dad64b626f3530f30333d",
+    "url": "img/bell.c284bec7.png"
+  },
+  {
+    "revision": "c284bec7f98dad64b626f3530f30333d",
+    "url": "img/user/bell.png"
+  },
+  {
+    "revision": "949d6b69edbf8e3cc23f5b2fb97d11c1",
+    "url": "img/user/browser.png"
+  },
+  {
+    "revision": "a7752e138b8dee075a1c9d5d36ae859e",
+    "url": "img/user/checklist.png"
+  },
+  {
+    "revision": "fe1be716a4b54cb4ae755b92813397f2",
+    "url": "img/user/pencil.png"
+  },
+  {
+    "revision": "3dbe59bb57eb1158836ac0678ed77f1c",
+    "url": "img/user/reference.txt"
+  },
+  {
+    "revision": "4bf2066a3c38b4c829883879e37167c8",
     "url": "index.html"
   },
   {
-    "revision": "43ea3254630f15d1aa6b",
-    "url": "js/app.23cecc36.js"
+    "revision": "0f756d3fee4f4107106d",
+    "url": "js/app.6abe26c9.js"
   },
   {
     "revision": "f5cbd49d5a8da8a9a117",
