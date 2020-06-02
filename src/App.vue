@@ -9,13 +9,13 @@
         <!-- <template v-slot:default="{ hide }"> -->
           <!-- 關視窗紐 -->
           <!-- <div id="xIcon" class="text-white text-center" @click="hide">×</div> -->
-          <div id="sidebar-container" class="px-3 py-2 position-absolute">
+          <div id="sidebar-container" class="position-absolute">
           <!-- 首頁 -->
-            <router-link to="/" class="mt-2"><b-img src="../public/img/user/tomato.png" alt="首頁" fluid></b-img></router-link>
+            <router-link to="/" class="c2"><b-img src="../public/img/user/tomato.png" alt="首頁" fluid></b-img></router-link>
           <!-- 清單 -->
-            <router-link to="/list" class="mt-5"><b-img src="../public/img/user/checklist.png" alt="清單" fluid></b-img></router-link>
+            <router-link to="/list" class="c5"><b-img src="../public/img/user/checklist.png" alt="清單" fluid></b-img></router-link>
           <!-- 鈴聲 -->
-            <router-link to="/settings" class="mt-5"><b-img src="../public/img/user/bell.png" alt="音效" fluid></b-img></router-link>
+            <router-link to="/settings" class="c5"><b-img src="../public/img/user/bell.png" alt="音效" fluid></b-img></router-link>
           </div>
         <!-- </template> -->
       </b-sidebar>
