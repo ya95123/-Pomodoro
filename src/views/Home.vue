@@ -1,8 +1,8 @@
 <template>
   <div id="home" class="d-flex flex-column align-items-center">
     <div id="startText" class="text-center rounded-circle my-5">完成很辛苦，<br>一步一步來也很辛苦；<br>若不做，永遠辛苦😄<br>開始吧！</div>
-    <h1>{{ currentText }}</h1>
-    <h2>{{ timetext }}</h2>
+    <p id="conetntText">{{ currentText }}</p>
+    <p id="numText">{{ timetext }}</p>
     <!-- icon 開始 -->
     <b-btn variant="primary" v-if="status !== 1" @click="start">
       GO
@@ -94,7 +94,9 @@ export default {
       if (this.todos.length > 0) {
         this.start()
       } else {
-        alert('結束')
+        setTimeout(() => {
+          alert('結束')
+        }, 10)
       }
     },
     pause () {

@@ -14,7 +14,8 @@ body
   height 100vh
   display flex
   justify-content center
-  background #ffc107
+  // background #ffc107
+  background-image linear-gradient(to top, #ff6f91, #ff7689, #ff7d81, #ff847b, #ff8c76, #ff9670, #ffa16c, #ffac69, #ffbe66, #ffd166, #ffe469, #f9f871)
 
 // app
 #app 
@@ -22,10 +23,11 @@ body
   margin 1rem 0 1rem 0
 
 #edit
-  width: 7%
+  width: 6.8%
   position fixed
   right 1.5%
-  top 20%
+  top 15%
+  z-index: 9999
   // background orange 
   &::before
     content ''
@@ -35,7 +37,7 @@ body
     background #333
 
 #sidebar-right
-  width 10%
+  width 11.5%
 
 #xIcon
   font-size 2.8vmin
@@ -47,21 +49,32 @@ body
   display flex
   flex-direction column
   align-items center
+  top 24.5%
 
 // home
 #home
   height 100%
 
 #startText
-  width 45vmin
-  height 45vmin
+  width 50vmin
+  height 50vmin
   display flex
   justify-content center
   align-items center
   background rgba(255, 255, 255, 0.3)
   color #84D7FA
   color #5F81FA
-  font-size 3.3vmin
+  font-size 3.6vmin
   font-weight 600
   text-shadow 0.18vmin 0.18vmin 0.18vmin #eee
-  
+
+#conetntText
+  color #fff
+  // 右下 右上 右  左下 左上 左 上 下 filter
+  // text-shadow 0.3vmin 0.3vmin 0 #34ADAD,0.3vmin -0.3vmin 0 #34ADAD,0.3vmin 0 0 #34ADAD,-0.3vmin 0.3vmin #34ADAD,-0.3vmin -0.3vmin 0 #34ADAD,-0.3vmin 0 0 #34ADAD, 0 0.3vmin #34ADAD,0 -0.3vmin #34ADAD
+  // filter drop-shadow(0vmin 0vmin 0.3vmin #34ADAD)
+  text-stroke 0.3vmin #34ADAD
+  font-size 5.6vmin
+
+#numText
+  font-size 4.5vmin
