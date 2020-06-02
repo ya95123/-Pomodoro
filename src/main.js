@@ -22,9 +22,14 @@ Vue.component('draggable', draggable)
 library.add(faCheck, faPen, faTimes, faUndo, faSave, faPlay, faPause, faStepForward)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
-// GA分析
+// GA分析 UA-168247584-1
 Vue.use(VueGtag, {
-  config: { id: 'UA-168247584-1' }
+  config: {
+    id: 'UA-168247584-1',
+    params: {
+      send_page_view: false
+    }
+  }
 })
 
 new Vue({
