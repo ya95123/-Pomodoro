@@ -17,23 +17,21 @@ import 'noto-sans-tc/noto_sans_tc_regular/css.css'
 import './style/style.stylus'
 // GA分析
 import VueGtag from 'vue-gtag'
+// Lottie 動畫
+import LottiePlayer from 'lottie-player-vue'
 
+// 可移動項目
 Vue.component('draggable', draggable)
+// font Awesome
 library.add(faCheck, faPen, faTimes, faUndo, faSave, faPlay, faPause, faStepForward)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-Vue.config.productionTip = false
-// GA分析 UA-168247584-1
-// Vue.use(VueGtag, {
-//   config: {
-//     id: 'UA-168247584-1',
-//     params: {
-//       send_page_view: false
-//     }
-//   }
-// })
+// GA
 Vue.use(VueGtag, {
   config: { id: 'UA-168247584-1' }
 })
+// Lottie
+Vue.use(LottiePlayer)
+Vue.config.productionTip = false
 
 new Vue({
   router,

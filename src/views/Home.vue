@@ -1,6 +1,8 @@
 <template>
   <div id="home" class="d-flex flex-column align-items-center">
     <div id="startText" class="text-center rounded-circle my-5">完成很辛苦，<br>一步一步來也很辛苦；<br>若不做，永遠辛苦😄<br>開始吧！</div>
+    <!-- Lottie動畫：work -->
+    <lottie-player :src="working" :options="{autoplay: true,speed: 2.4,width: '35vmin',loop:'true'}"/>
     <p id="conetntText">{{ currentText }}</p>
     <p id="numText">{{ timetext }}</p>
     <!-- icon 開始 -->
@@ -19,6 +21,7 @@
 </template>
 
 <script>
+import working from '../assets/lf20_u5FXEt.json'
 
 export default {
   data () {
@@ -27,7 +30,8 @@ export default {
       // 1 = 播放
       // 2 = 暫停
       status: 0,
-      timer: 0
+      timer: 0,
+      working
     }
   },
   computed: {
