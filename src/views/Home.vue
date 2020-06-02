@@ -4,16 +4,15 @@
     <p id="conetntText">{{ currentText }}</p>
     <p id="numText">{{ timetext }}</p>
     <!-- icon 開始 -->
-    <b-btn variant="primary" v-if="status !== 1" @click="start">
-      GO
+    <b-btn variant="primary" v-if="status !== 1" @click="start">GO
       <font-awesome-icon :icon="['fas','play']"></font-awesome-icon>
     </b-btn>
     <!-- icon 暫停 -->
-    <b-btn variant="primary" v-if="status == 1" @click="pause">
+    <b-btn variant="primary" v-if="status == 1" @click="pause">暫停
       <font-awesome-icon :icon="['fas','pause']"></font-awesome-icon>
     </b-btn>
     <!-- icon 跳過 -->
-    <b-btn variant="primary" v-if="current.length > 0 || todos.length > 0" @click="finish(true)">
+    <b-btn variant="primary" v-if="current.length > 0 || todos.length > 0" @click="finish(true)">跳過
       <font-awesome-icon :icon="['fas','step-forward']"></font-awesome-icon>
     </b-btn>
   </div>
@@ -34,7 +33,7 @@ export default {
   computed: {
     currentText () {
       // 清單中有東西 -> 就會出現'點擊開始'，如果沒東西 -> 就是'沒有事項'
-      return this.current.length > 0 ? this.current : this.todos.length > 0 ? '點擊開始' : '沒有事項'
+      return this.current.length > 0 ? this.current : this.todos.length > 0 ? '點擊開始' : '請先設定事項'
     },
     timetext () {
       // this.timeleft 在環境檔裡 為 5

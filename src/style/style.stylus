@@ -23,18 +23,12 @@ body
   margin 1rem 0 1rem 0
 
 #edit
-  width: 6.8%
+  width: calc(11.5% - 1rem)
   position fixed
   right 1.5%
   top 15%
+  // right 2.6%
   z-index: 9999
-  // background orange 
-  &::before
-    content ''
-    display block
-    width 7.5%
-    height 7.5%
-    background #333
 
 #sidebar-right
   width 11.5%
@@ -70,11 +64,9 @@ body
 
 #conetntText
   color #fff
-  // 右下 右上 右  左下 左上 左 上 下 filter
-  // text-shadow 0.3vmin 0.3vmin 0 #34ADAD,0.3vmin -0.3vmin 0 #34ADAD,0.3vmin 0 0 #34ADAD,-0.3vmin 0.3vmin #34ADAD,-0.3vmin -0.3vmin 0 #34ADAD,-0.3vmin 0 0 #34ADAD, 0 0.3vmin #34ADAD,0 -0.3vmin #34ADAD
-  // filter drop-shadow(0vmin 0vmin 0.3vmin #34ADAD)
-  text-stroke 0.3vmin #34ADAD
   font-size 5.6vmin
+  font-weight 700
 
 #numText
   font-size 4.5vmin
+  font-weight 550
