@@ -23,13 +23,16 @@ library.add(faCheck, faPen, faTimes, faUndo, faSave, faPlay, faPause, faStepForw
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 // GA分析 UA-168247584-1
+// Vue.use(VueGtag, {
+//   config: {
+//     id: 'UA-168247584-1',
+//     params: {
+//       send_page_view: false
+//     }
+//   }
+// })
 Vue.use(VueGtag, {
-  config: {
-    id: 'UA-168247584-1',
-    params: {
-      send_page_view: false
-    }
-  }
+  config: { id: 'UA-168247584-1' }
 })
 
 new Vue({
