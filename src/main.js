@@ -18,7 +18,7 @@ import './style/style.stylus'
 // GA分析
 import VueGtag from 'vue-gtag'
 // Lottie 動畫
-import LottiePlayer from 'lottie-player-vue'
+import '@lottiefiles/lottie-player'
 
 // 可移動項目
 Vue.component('draggable', draggable)
@@ -30,7 +30,6 @@ Vue.use(VueGtag, {
   config: { id: 'UA-168247584-1' }
 })
 // Lottie
-Vue.use(LottiePlayer)
 Vue.config.productionTip = false
 
 new Vue({
