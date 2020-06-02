@@ -4,11 +4,11 @@
       <!-- 跳出側邊攔按鈕 -->
       <b-img id="edit" src="../public/img/user/pencil.png" alt="編輯" v-b-toggle.sidebar-right></b-img>
       <!-- 側邊攔 -->
-      <b-sidebar id="sidebar-right" bg-variant="warning" right no-header shadow>
+      <b-sidebar id="sidebar-right" bg-variant="warning" right no-header shadow backdrop="true" backdrop-variant="transparent">
         <!-- 關視窗模板 -->
         <template v-slot:default="{ hide }">
           <!-- 關視窗紐 -->
-          <div id="xIcon" class="text-white text-center mt-2" @click="hide">×</div>
+          <div id="xIcon" class="text-white text-center" @click="hide">×</div>
           <div id="sidebar-container" class="px-3 py-2">
           <!-- 首頁 -->
             <router-link to="/" class="mt-2"><b-img src="../public/img/user/browser.png" alt="首頁" fluid></b-img></router-link>

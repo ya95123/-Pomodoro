@@ -38,8 +38,10 @@ body
   width 10%
 
 #xIcon
-  font-size 2.3vmin
+  font-size 2.8vmin
   cursor pointer
+  margin-top 2vmin
+  margin-bottom 6.5vmin
 
 #sidebar-container
   display flex

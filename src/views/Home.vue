@@ -5,6 +5,7 @@
     <h2>{{ timetext }}</h2>
     <!-- icon 開始 -->
     <b-btn variant="primary" v-if="status !== 1" @click="start">
+      GO
       <font-awesome-icon :icon="['fas','play']"></font-awesome-icon>
     </b-btn>
     <!-- icon 暫停 -->
