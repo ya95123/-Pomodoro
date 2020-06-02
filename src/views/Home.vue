@@ -1,5 +1,6 @@
 <template>
-  <div id="home">
+  <div id="home" class="d-flex flex-column align-items-center">
+    <div id="startText" class="text-center rounded-circle my-5">完成很辛苦，<br>一步一步來也很辛苦；<br>若不做，永遠辛苦😄<br>開始吧！</div>
     <h1>{{ currentText }}</h1>
     <h2>{{ timetext }}</h2>
     <!-- icon 開始 -->
