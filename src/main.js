@@ -15,11 +15,16 @@ import draggable from 'vuedraggable'
 // 引用字體
 import 'noto-sans-tc/noto_sans_tc_regular/css.css'
 import './style/style.stylus'
+// GA分析
+import VueAnalytics from 'vue-analytics'
 
 Vue.component('draggable', draggable)
 library.add(faCheck, faPen, faTimes, faUndo, faSave, faPlay, faPause, faStepForward)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
+Vue.use(VueAnalytics, {
+  id: 'UA-168247584-1'
+})
 
 new Vue({
   router,
