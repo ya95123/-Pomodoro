@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.807b2ca745a31bb75f567263146576f5.js"
+  "precache-manifest.3a54354cefa54cc1041e0103d388962b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "clock"});

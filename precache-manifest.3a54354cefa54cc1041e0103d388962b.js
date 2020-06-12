@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alarms/yay.mp3"
   },
   {
-    "revision": "172fd5e3f9f17af36282",
-    "url": "css/app.26073823.css"
+    "revision": "729531879a7edd4cc5af",
+    "url": "css/app.0214a46b.css"
   },
   {
     "revision": "3441bf577c41ab627b3d",
@@ -420,6 +420,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/break.2b7de588.svg"
   },
   {
+    "revision": "699fa28c2499c119c351ce5936008902",
+    "url": "img/dino1.699fa28c.gif"
+  },
+  {
     "revision": "03a12603ea956b580c24386a117aeb06",
     "url": "img/pause.03a12603.svg"
   },
@@ -444,6 +448,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/user/checklist.png"
   },
   {
+    "revision": "699fa28c2499c119c351ce5936008902",
+    "url": "img/user/dino1.gif"
+  },
+  {
+    "revision": "4e3a24d4478ae648a60cde106bfa7ad1",
+    "url": "img/user/dino2.gif"
+  },
+  {
     "revision": "03a12603ea956b580c24386a117aeb06",
     "url": "img/user/pause.svg"
   },
@@ -460,12 +472,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/user/tomato.png"
   },
   {
-    "revision": "77f4d4073d907aff46d14e18c0cd1204",
+    "revision": "13238f36261fc950115a66b792c6e5ad",
     "url": "index.html"
   },
   {
-    "revision": "172fd5e3f9f17af36282",
-    "url": "js/app.8cbaa4c2.js"
+    "revision": "729531879a7edd4cc5af",
+    "url": "js/app.5e8f55a6.js"
   },
   {
     "revision": "3441bf577c41ab627b3d",
