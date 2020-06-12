@@ -90,4 +90,6 @@ body
       justify-content space-around 
       .count-btn
         font-weight 560
-
+    
+    .status-pic
+      width 45%

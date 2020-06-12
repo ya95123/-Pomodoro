@@ -1,12 +1,12 @@
 <template>
   <div id="home" class="d-flex flex-column align-items-center">
     <div v-if="status == 0" id="startText" class="text-center rounded-circle my-5">完成很辛苦，<br>一步一步來也很辛苦；<br>若不做，永遠辛苦😄<br>開始吧！</div>
-    <!-- 開始中 TODO 開始的圖 -->
-    <div v-else-if="!isBreak && status == 1"></div>
+    <!-- 開始中 -->
+    <img v-else-if="!isBreak && status == 1" class="status-pic" src="../../public/img/user/dino1.gif">
     <!-- 休息一下 -->
-    <img v-else-if="isBreak" src="../../public/img/user/break.svg">
+    <img v-else-if="isBreak" class="status-pic" src="../../public/img/user/break.svg">
     <!-- 暫停 -->
-    <img v-else src="../../public/img/user/pause.svg">
+    <img v-else class="status-pic" src="../../public/img/user/pause.svg">
 
     <p id="conetntText">{{ currentText }}</p>
     <p id="numText">{{ timetext }}</p>
