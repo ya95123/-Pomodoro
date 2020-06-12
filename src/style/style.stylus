@@ -18,7 +18,10 @@ body
   // background #ffc107
   background-image linear-gradient(to top, #ff6f91, #ff7689, #ff7d81, #ff847b, #ff8c76, #ff9670, #ffa16c, #ffac69, #ffbe66, #ffd166, #ffe469, #f9f871)
 
-// *app---------------------------------------------------
+h3 
+  text-align center
+
+// *app---------------------------------------------------OK
 #app 
   width 75%
   margin 3.5vmin 0
@@ -51,7 +54,7 @@ body
     .c5
       margin-top 5.5vmin
 
-// *home---------------------------------------------------
+// *home---------------------------------------------------OK
   #home
     height 100%
     display flex
@@ -93,3 +96,28 @@ body
     
     .status-pic
       width 45%
+
+// *list---------------------------------------------------
+  #list
+    // text-shadow 0 0vmin 0vmin #fff9
+    h3
+      font-size 8vmin
+      text-shadow 0 0.4vmin 0.4vmin #fff9
+      font-weight 550
+
+    #addlist
+      margin 4vmin 0
+      display flex
+      justify-content center
+      align-items center
+    
+    #input
+      width 80%
+      margin-right 3vmin
+
+    #input-btn
+      font-weight 550
+
+    // TODO　要對文件 寫在 script裡的 json裡面 
+    #tableList 
+      border-color #fff !important

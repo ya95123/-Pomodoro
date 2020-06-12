@@ -1,8 +1,11 @@
 <template>
   <div id="list">
-    <b-form-input v-model="newtodo" @keydown.enter="addTodo"></b-form-input>
-    <b-btn variant="success" @click="addTodo">新增</b-btn>
-    <b-table-simple>
+    <h3>待 辦 清 單</h3>
+    <div id="addlist">
+      <b-form-input id="input" v-model="newtodo" @keydown.enter="addTodo"></b-form-input>
+       <b-btn id="input-btn" variant="outline-dark" @click="addTodo">新增</b-btn>
+    </div>
+    <b-table-simple id="tableList">
       <b-thead>
         <b-tr>
           <b-th>事項</b-th>
