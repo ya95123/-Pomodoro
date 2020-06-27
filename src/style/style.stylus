@@ -34,6 +34,12 @@ h3
       padding 0 1.4vmin !important
       margin-right 2vmin !important
 
+    #list
+      #tableList 
+        td:nth-child(1)
+          width 86%
+        td:nth-child(2)
+          width 14%
 
 // *app---------------------------------------------------OK
 #app 
@@ -132,6 +138,8 @@ h3
     #input-btn
       font-weight 550
 
-    // TODO　要對文件 寫在 script裡的 json裡面 
     #tableList 
-      border-color #fff !important
+      td:nth-child(1)
+        width 70%
+      td:nth-child(2)
+        width 30%
