@@ -21,13 +21,27 @@ body
 h3 
   text-align center
 
+@media screen and (min-width: 992px)
+  #app
+    #edit
+      width 5.5% !important
+
+    #sidebar-right
+      width 7.5% !important
+
+    #sidebar-container
+      top 26.5% !important
+      padding 0 1.4vmin !important
+      margin-right 2vmin !important
+
+
 // *app---------------------------------------------------OK
 #app 
   width 75%
   margin 3.5vmin 0
 
   #edit
-    width: 8.5%
+    width 8.5%
     position fixed
     right 1.5%
     top 15%

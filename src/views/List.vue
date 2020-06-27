@@ -2,6 +2,7 @@
   <div id="list">
     <h3>待 辦 清 單</h3>
     <div id="addlist">
+      <!-- TODO 輸入完清空內容 -->
       <b-form-input id="input" v-model="newtodo" @keydown.enter="addTodo"></b-form-input>
        <b-btn id="input-btn" variant="outline-dark" @click="addTodo">新增</b-btn>
     </div>
