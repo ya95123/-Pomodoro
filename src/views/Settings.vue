@@ -1,9 +1,10 @@
 <template>
   <div id="settings">
+    <h3>鈴 聲 設 定</h3>
     <b-table :items="items" :fields="fields" @row-clicked="selectAlarm">
       <template v-slot:cell(preview)="data">
         <!-- why 是 item 不是 items ? -->
-        <audio controls :src="'./alarms/'+data.item.file"></audio>
+        <audio controls width="100" :src="'./alarms/'+data.item.file"></audio>
       </template>
 
       <template v-slot:cell(select)="data">
@@ -39,7 +40,7 @@ export default {
         },
         {
           key: 'preview',
-          label: '預覽'
+          label: '試聽'
         },
         {
           key: 'select',
