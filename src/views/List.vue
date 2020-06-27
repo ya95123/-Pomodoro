@@ -65,6 +65,12 @@ export default {
   },
   methods: {
     addTodo () {
+      if (this.newtodo.trim() === '') {
+        alert('請輸入內容')
+        this.newtodo = ''
+        // return 用來中斷後面的程式執行
+        return
+      }
       this.$store.commit('addTodo', this.newtodo)
       console.log('add了')
       this.newtodo = ''
