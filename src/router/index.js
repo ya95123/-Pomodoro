@@ -26,7 +26,7 @@ const routes = [
     name: 'Settings',
     component: () => import(/* webpackChunkName: "settings" */ '../views/Settings.vue'),
     meta: {
-      title: '番茄鐘 | 設定'
+      title: '番茄鐘 | 鈴聲'
     }
   },
   {

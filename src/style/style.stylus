@@ -57,11 +57,11 @@ h3
   #sidebar-right
     width 11.5%
 
-  #xIcon
-    font-size 2.8vmin
-    cursor pointer
-    margin-top 2vmin 
-    margin-bottom 6.5vmin
+  // #xIcon
+  //   font-size 2.8vmin
+  //   cursor pointer
+  //   margin-top 2vmin 
+  //   margin-bottom 6.5vmin
 
   #sidebar-container
     padding 0 1.3vmin
@@ -114,8 +114,11 @@ h3
       .count-btn
         font-weight 560
     
+    // 狀態圖片
     .status-pic
       width 45%
+      height 45%
+      object-fit contain
 
 // *list---------------------------------------------------
   #list
