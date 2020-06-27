@@ -67,6 +67,7 @@ export default {
     addTodo () {
       this.$store.commit('addTodo', this.newtodo)
       console.log('add了')
+      this.newtodo = ''
     },
     delTodo (index) {
       this.$store.commit('delTodo', index)
